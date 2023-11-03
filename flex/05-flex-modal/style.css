@@ -16,6 +16,10 @@ body {
 }
 
 .modal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -50,9 +54,31 @@ body {
   padding: 0;
 }
 
+.header {
+  font-weight: 900;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 430px
+}
+
+.bottomline {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10%;
+}
+
 button {
   cursor: pointer;
   padding: 8px 16px;
+  margin: 2px;
   border-radius: 8px;
 }
 
